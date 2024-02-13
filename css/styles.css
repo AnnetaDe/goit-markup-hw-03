@@ -1,0 +1,160 @@
+.body {
+    background: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+ul{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.link {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4d5ae5;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.header .logostudio {
+    color: #2E2F42;
+}
+.logostudio {
+    color: #F4F4FD;
+}
+header .navigation {
+    font-weight: 500;
+}
+
+.navigation-list .link {
+    color: #2E2F42;
+}
+
+.navigation-list .link:hover {
+    color: #404BBF;
+}
+
+.navigation-list .link:active {
+    text-transform: none;
+    color: #404BBF;
+}
+
+.navigation-list .link:focus {
+    text-transform: none;
+    color: #404BBF;
+}
+
+.contact {
+    font-style: normal;
+}
+
+.contact-list .link {
+    color: #434455;
+}
+
+.contact-list .link:hover {
+    color: #404BBF;
+}
+
+.contact-list .link:active {
+    color: #404BBF;
+}
+
+.contact-list .link:focus {
+    color: #404BBF;
+}
+.hero {
+    background: #2E2F42;
+}
+.hero .titleone {
+    text-align: center;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #4D5AE5;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.button:hover {
+    background: #404BBF;
+}
+.button:focus {
+    background: #404BBF;
+}
+.titleone {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.titletwo {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.20;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+.titlethree {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+.section-features .list-features .titlethree {
+    line-height: 1.20;
+}
+.our-team {
+    background-color: #F4F4FD;
+}
+.our-team .titletwo {
+    text-align: center;
+    line-height: 1.11;
+}
+.list-team .titlethree{
+    line-height: 1.20;
+}
+
+.list-team .team-card{
+    background-color: #FFFFFF;
+}
+.team-card{
+    font-size: 16px;
+}
+.portfolio{
+    background-color: #FFFFFF;
+}
+.portfolio .titletwo {
+    text-align: center;
+    line-height: 1.11;
+}
+.portfolio-card .titlethree {
+    line-height: 1.20;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer .footer-text {
+    color: #F4F4FD;
+}
