@@ -21,7 +21,6 @@ ul{
 } 
 .container {
 max-width: 1158px;
-    outline: red 2px solid;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -115,7 +114,6 @@ header .navigation {
 .titleone {
     width: 496px;
     display: block;
-    outline: red 2px solid;
     margin-bottom: 48px;
     color: #FFF;
     font-size: 56px;
@@ -229,6 +227,7 @@ header .navigation {
 .list-portfolio {
     flex-wrap: wrap-reverse;
     justify-content: space-between;
+    gap: 8px;
 
 }
 
@@ -236,12 +235,14 @@ header .navigation {
     display: block;
     max-width: 100%;
 }
-
+.list-portfolio{
+    flex-basis: calc((100% - 16px) / 3);
+}
 .portfolio-card{
     background-color: #FFF;
     margin: 0 auto;
     padding-bottom: 32px;
-
+    border-bottom:1px;
 }
 .portfolio{
     background-color: #FFFFFF;
