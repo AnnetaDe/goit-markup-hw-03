@@ -305,6 +305,7 @@ nav {
 .portfolio .under-img {
       
     border: 1px solid #E7E9FC;
+    border-top: none;
 
 }
 .footer {
@@ -325,7 +326,4 @@ nav {
 .footer .logo{
     display: inline-block;
     margin-bottom: 16px;
-}
-.portfolio .under-img{
-    border: 0 1px 1px 1px solid #E7E9FC;
 }
