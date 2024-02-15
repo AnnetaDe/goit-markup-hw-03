@@ -49,6 +49,7 @@ max-width: 1158px;
 }
 
 .logostudio {
+    display:block
     color: #F4F4FD;
 }
 .logo {
@@ -64,13 +65,37 @@ max-width: 1158px;
     padding-bottom: 18px;
 }
 
-header .navigation {
+.navigation {
+    outline:red solid 1px;
     font-weight: 500;
-}
-.navigation{
     display: flex;
+    justify-content: space-between;
+    
+  
+}
+.container-link{
+
+    display:flex;
+    flex-grow: 2;    
+}
+.container-logo{
+    display:block;
+}
+.container-address{
+    display:block;
 }
 
+
+.navigation-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-grow: 2;
+
+}
 .navigation-list .link {
     color: #2E2F42;
     padding-right: 40px
@@ -119,7 +144,11 @@ header .navigation {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0,64px;
+    letter-spacing: 0.02em;
+    text-align:center;
+    padding: 48px;
+
+    margin: 0 auto;
 }
 .hero {
     background: #2E2F42;
