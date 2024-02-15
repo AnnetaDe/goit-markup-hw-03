@@ -6,12 +6,36 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+ }   
+h1, h2, h3,p {
+    margin: 0;
+    /* padding: 0 auto; */
 }
 ul{
     line-height: 1.5;
     font-size: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+} 
+.container {
+max-width: 1158px;
+    outline: red 2px solid;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 .link {
     font-style: normal;
     text-decoration: none;
@@ -21,6 +45,13 @@ ul{
     text-decoration: none;
 }
 
+.header .logostudio {
+    color: #2E2F42;
+}
+
+.logostudio {
+    color: #F4F4FD;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -30,19 +61,20 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
+    /* padding-right: 40px; */
+    padding-bottom: 18px;
 }
-.header .logostudio {
-    color: #2E2F42;
-}
-.logostudio {
-    color: #F4F4FD;
-}
+
 header .navigation {
     font-weight: 500;
+}
+.navigation{
+    display: flex;
 }
 
 .navigation-list .link {
     color: #2E2F42;
+    padding-right: 40px
 }
 
 .navigation-list .link:hover {
@@ -78,21 +110,43 @@ header .navigation {
 .contact-list .link:focus {
     color: #404BBF;
 }
+
+
+.titleone {
+    width: 496px;
+    display: block;
+    outline: red 2px solid;
+    margin-bottom: 48px;
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0,64px;
+}
 .hero {
     background: #2E2F42;
+    padding: 188px 0;
 }
-.hero .titleone {
-    text-align: center;
-}
+
 .button {
+    width: 163px;
+    height: 60px;
+    display:block;
+    cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background: #4D5AE5;
-    color: #FFF;
     font-weight: 500;
     letter-spacing: 0.04em;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: #4D5AE5;
+    outline: none;
     cursor: pointer;
+    padding: 16px 32px;
+    padding-inline: 0;
+    margin:0 auto;
 }
 .button:hover {
     background: #404BBF;
@@ -100,20 +154,37 @@ header .navigation {
 .button:focus {
     background: #404BBF;
 }
-.titleone {
-    color: #FFF;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
+.section-features {
+    padding: 188px 0;
+
+
 }
+.section-features .list-features .titlethree {
+    line-height: 1.20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-team {
+    padding:240 px 0;
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.our-team .list-team {
+    display: flex;
+    justify-content: space-between;
+}
+
 .titletwo {
+    display: block;
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.20;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+    padding-bottom:  72px;
 }
 .titlethree {
     color: #2E2F42;
@@ -121,30 +192,62 @@ header .navigation {
     font-weight: 500;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
+
 }
-.section-features .list-features .titlethree {
-    line-height: 1.20;
+.our-team .container-image {
+    margin: 0 auto;
+    padding: 15px;
 }
-.our-team {
-    background-color: #F4F4FD;
-}
+
 .our-team .titletwo {
     text-align: center;
     line-height: 1.11;
-}
-.list-team .titlethree{
-    line-height: 1.20;
+    
 }
 
-.list-team .team-card{
+
+.team-card .titlethree {
+    text-align: center;
+    line-height: 1.20;
+    
+}
+.team-card-paragraf{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.list-team .team-card {
     background-color: #FFFFFF;
 }
-.team-card{
+
+.team-card {
     font-size: 16px;
+    margin: 0 auto;
+}
+
+.list-portfolio {
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+}
+
+.portfolio-card{
+    background-color: #FFF;
+    margin: 0 auto;
+    padding-bottom: 32px;
+
 }
 .portfolio{
     background-color: #FFFFFF;
+    padding: 120px 0;
 }
+
 .portfolio .titletwo {
     text-align: center;
     line-height: 1.11;
@@ -155,6 +258,13 @@ header .navigation {
 .footer {
     background-color: #2E2F42;
 }
-.footer .footer-text {
+.footer-text {
     color: #F4F4FD;
+    display: block;
+    width: 264px;
+    text-align: left;
+}
+.footer-block{
+    display: block;
+    padding: 100px 0;
 }
