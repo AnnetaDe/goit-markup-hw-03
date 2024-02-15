@@ -43,7 +43,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 76px 178px;
-    padding: 27px 0;
 }
 
 .link {
@@ -55,8 +54,7 @@ nav {
     text-decoration: none;
 }
 
-.header .logo {
-    color: #2E2F42;
+.navigation .logo {
     margin-right: 76px;
     display: inline-block;
 
@@ -81,15 +79,13 @@ nav {
      margin-bottom: 18px;
 }
 
-.navigation-list-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 
 .contact-list{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    /
 }
 
 
@@ -227,9 +223,9 @@ nav {
 .team-card{
     border-radius: 0 0 4px 4px;
 }
-.under-img{
+/* .under-img{
     padding: 32px 0;
-}
+} */
 .titletwo {
     display: block;
     color: #2E2F42;
@@ -329,7 +325,6 @@ nav {
     letter-spacing: 0.02em;
     line-height: 1.5;
     padding-top: 18px;
-    padding: 100px 0;
 }
 .footer .logo{
     display: inline-block;
