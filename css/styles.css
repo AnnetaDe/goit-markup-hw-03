@@ -42,7 +42,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 76px 178px;
 }
 
 .link {
@@ -270,10 +269,9 @@ nav {
     display: block;
     margin: 0 auto;
     display: block;
-    margin: 0 auto;
-    padding: 32px 16px;
-
+    padding: 32px 0;
 }
+
 .list-portfolio {
     flex-wrap: wrap;
     column-gap: 24px;
@@ -306,7 +304,7 @@ nav {
     border-top: none;
     display: block;
     margin: 0 auto;
-    padding: 32px 0;
+    padding: 32px 16;
 
 }
 .footer {
