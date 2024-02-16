@@ -102,7 +102,7 @@ nav {
     margin: 0;
 }
 
-.navigation-list-item {
+.navigation-list-item .link {
     display: flex;
     padding: 24px 0;
 }
