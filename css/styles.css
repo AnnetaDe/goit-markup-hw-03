@@ -276,7 +276,7 @@ nav {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .portfolio-card{
