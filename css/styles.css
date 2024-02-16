@@ -241,7 +241,6 @@ nav {
 }
 .our-team .container-image {
     margin: 0 auto;
-    /* padding: 15px; */
 }
 
 .our-team .titletwo {
@@ -270,6 +269,10 @@ nav {
 .team-card .under-img {
     display: block;
     margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    padding: 32px 16px;
+
 }
 .list-portfolio {
     flex-wrap: wrap;
@@ -288,11 +291,7 @@ nav {
     background-color: #FFFFFF;
     padding: 120px 0;
 }
-.under-img {
-    display: block;
-    margin: 0 auto;
-    padding: 32px 16px;
-}
+
 .portfolio .titletwo {
     text-align: center;
     line-height: 1.11;
@@ -303,9 +302,11 @@ nav {
 
 }
 .portfolio .under-img {
-      
     border: 1px solid #E7E9FC;
     border-top: none;
+    display: block;
+    margin: 0 auto;
+    padding: 32px 0;
 
 }
 .footer {
