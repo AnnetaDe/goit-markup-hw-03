@@ -1,3 +1,4 @@
+/* body */
 .body {
     background: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -6,38 +7,48 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}   
-h1, h2, h3,p {
+}
+
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
-ul{
+
+ul {
     line-height: 1.5;
     font-size: 16px;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; 
-} 
+    display: flex;
+}
+
 .container {
     max-width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 img {
     display: block;
     max-width: 100%;
 }
+
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-header{
+
+header {
     border-bottom: #e7e9fc 1px solid;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -58,9 +69,11 @@ nav {
     display: inline-block;
 
 }
+
 .logostudio {
     color: #F4F4FD;
 }
+
 .header .logostudio {
     color: #2E2F42;
 }
@@ -75,30 +88,31 @@ nav {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-decoration: none;
-     /* margin-bottom: 18px; */
-     padding-top: 18px;
-     padding-bottom: 18px;
+    /* margin-bottom: 18px; */
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 
 
-.contact-list{
+.contact-list {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    
+
 }
 
 
-.container-logo{
-    display:block;
+.container-logo {
+    display: block;
     margin-right: 76px;
-}  
-.navigation-list{
+}
+
+.navigation-list {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    
+
     margin: 0;
 }
 
@@ -155,19 +169,21 @@ nav {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align:center;
+    text-align: center;
     padding: 48px;
     margin: 0 auto;
     max-width: 496px;
 }
+
 .hero {
     background: #2E2F42;
     padding: 188px 0;
 }
+
 .button {
     min-width: 169px;
     height: 56px;
-    display:block;
+    display: block;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -180,26 +196,32 @@ nav {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 .button:hover {
     background: #404BBF;
 }
+
 .button:focus {
     background: #404BBF;
 }
+
 .section-features {
     padding: 120px 0;
 }
+
 .list-features {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    
+
 }
-.feature{
+
+.feature {
     width: calc((100% - 72px) / 4)
 }
+
 .section-features .list-features .titlethree {
     line-height: 1.20;
     display: flex;
@@ -207,17 +229,20 @@ nav {
     align-items: center;
     margin-bottom: 8px;
 }
+
 .our-team {
-    padding:240 px 0;
+    padding: 240 px 0;
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+
 .our-team .list-team {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-.team-card{
+
+.team-card {
     border-radius: 0 0 4px 4px;
 }
 
@@ -231,6 +256,7 @@ nav {
     letter-spacing: 0.02em;
     margin-bottom: 72px;
 }
+
 .titlethree {
     color: #2E2F42;
     font-size: 20px;
@@ -238,6 +264,7 @@ nav {
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
+
 .our-team .container-image {
     margin: 0 auto;
 }
@@ -245,15 +272,17 @@ nav {
 .our-team .titletwo {
     text-align: center;
     line-height: 1.11;
-    
+
 }
+
 .team-card .titlethree {
     text-align: center;
     line-height: 1.20;
     margin-bottom: 8px;
-    
+
 }
-.team-card-paragraf{
+
+.team-card-paragraf {
     text-align: center;
 }
 
@@ -265,6 +294,7 @@ nav {
     font-size: 16px;
     margin: 0 auto;
 }
+
 .team-card .under-img {
     display: block;
     margin: 0 auto;
@@ -279,13 +309,14 @@ nav {
     /* justify-content: space-between; */
 }
 
-.portfolio-card{
+.portfolio-card {
     background-color: #FFF;
     margin: 0 auto;
     flex-basis: calc((100% - 48px) / 3);
     border-top: none;
 }
-.portfolio{
+
+.portfolio {
     background-color: #FFFFFF;
     padding: 120px 0;
 }
@@ -294,11 +325,13 @@ nav {
     text-align: center;
     line-height: 1.11;
 }
+
 .portfolio-card .titlethree {
     line-height: 1.20;
     margin-bottom: 8px;
 
 }
+
 .portfolio .under-img {
     border: 1px solid #E7E9FC;
     border-top: none;
@@ -307,6 +340,7 @@ nav {
     padding: 32px 16px;
 
 }
+
 .footer {
     padding: 100px 0;
     border-top-width: 1px;
@@ -322,7 +356,8 @@ nav {
     line-height: 1.5;
     padding-top: 18px;
 }
-.footer .logo{
+
+.footer .logo {
     display: inline-block;
     margin-bottom: 16px;
 }
