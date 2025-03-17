@@ -360,34 +360,19 @@ nav {
 }
 
 .footer {
-    height: 312px;
+    padding: 100px 0;
     border-top-width: 1px;
     background-color: #2E2F42;
-    display: flex;
-    justify-content: flex-start;
-
-    align-items: flex-end;
-
-    padding-bottom: 20px;
-
-
-
 }
-
-.footer .container {
-    width: 100%;
-}
-
-
-
-
-
-
-
 
 .footer-text {
     color: #F4F4FD;
-    width: 264px;
+    display: block;
+    max-width: 264px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    padding-top: 18px;
     font-weight: 400;
     letter-spacing: 2%;
     line-height: 24px;
@@ -395,6 +380,6 @@ nav {
 }
 
 .footer .logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
 }
